@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{73C97EF8-942B-409D-9A0B-5C981A2E01F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{65367693-5E4C-44DE-B824-C92673046582}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4475BF2C-E1CA-4C93-9CAF-61C274927308}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.API", "src\BookShop.API\BookShop.API.csproj", "{267913CB-6E29-4FE0-B646-5F801697C362}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84A9D51F-3C0F-43B4-A451-E2FE19667A3F}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{267913CB-6E29-4FE0-B646-5F801697C362} = {73C97EF8-942B-409D-9A0B-5C981A2E01F9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+EndGlobal
